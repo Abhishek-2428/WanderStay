@@ -29,18 +29,21 @@ A full-stack traveling & hotel room booking web application — an Airbnb-inspir
 ## 🛠️ Tech Stack
 
 **Backend**
+
 - Node.js
 - Express.js (routing, middleware pipeline)
 - MongoDB Atlas with Mongoose (schemas/models)
 - MVC architecture (Models, Views, Controllers)
 
 **Frontend**
+
 - EJS (Embedded JavaScript templates)
 - CSS3 & Bootstrap (responsive layout, form validation styling)
 - Client-side JavaScript
 - Mapbox GL JS (map rendering + geocoding)
 
 **Authentication & Security**
+
 - Passport.js (Local Strategy) with password hashing & salting
 - express-session for session management
 - Cookies for persisting login state
@@ -48,11 +51,13 @@ A full-stack traveling & hotel room booking web application — an Airbnb-inspir
 - Custom authorization middleware (route-level access control)
 
 **Error Handling & Validation**
+
 - Custom `ExpressError` class for centralized error responses
 - `wrapAsync` middleware to catch async errors in routes
 - Server-side schema validation + Bootstrap client-side validation
 
 **Deployment**
+
 - Render (hosting)
 - MongoDB Atlas (cloud database)
 
@@ -84,6 +89,7 @@ WanderStay/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - MongoDB (local or Atlas)
 - A Mapbox account (for map tokens)
@@ -92,17 +98,20 @@ WanderStay/
 ### Installation
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/Abhishek-2428/WanderStay.git
    cd WanderStay
    ```
 
 2. Install dependencies
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file in the root directory with the following variables:
+
    ```
    ATLASDB_URL=your_mongodb_connection_string
    MAP_TOKEN=your_mapbox_access_token
@@ -113,11 +122,13 @@ WanderStay/
    ```
 
 4. (Optional) Seed the database with sample listings
+
    ```bash
    node init/index.js
    ```
 
 5. Start the server
+
    ```bash
    node app.js
    ```
@@ -165,4 +176,4 @@ GitHub: [@Abhishek-2428](https://github.com/Abhishek-2428)
 
 ---
 
-<p align="center">© WanderLust Private Limited</p>
+<p align="center">© WanderStay Private Limited</p>
